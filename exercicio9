@@ -1,0 +1,19 @@
+programa {
+  funcao inicio() {
+    inteiro num1, fatorial, i
+    escreva("escreva um numero inteiro")
+    leia(num1)
+    se(num1<0){ 
+    escreva("nao existe numero")
+    }
+    senao
+    fatorial = 1
+    para(i =1; i<=num1; i++)
+    fatorial = fatorial * i
+    escreva("\n, fatorial de", num1, " e: ", fatorial)
+
+
+
+
+  }
+}
