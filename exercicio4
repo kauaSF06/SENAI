@@ -1,0 +1,15 @@
+programa {
+  funcao inicio() {
+    inteiro num1, num2
+    escreva("digite dois numeros em sequencia e veja qual e o maior deles \n")
+    leia(num1)
+    leia(num2)
+    se(num1>num2)
+    escreva("o primeiro numero e maior", num1)
+    senao
+    escreva("o segundo numero e maior",num2)
+
+
+
+  }
+}
