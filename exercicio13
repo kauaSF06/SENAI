@@ -1,0 +1,20 @@
+programa {
+  funcao inicio() {
+    inteiro n,a ,b, prox, i
+    a=1
+    b=1
+    escreva("quantos termos de fibonnaci")
+    leia(n)
+    escreva(a," ",b , " ")
+    para(1 = 3; i<=n; i++){
+      prox = a+ b
+      escreva(prox," ")
+      a = b
+      b = prox
+    }
+escreva("\n")
+
+
+
+
+  }
