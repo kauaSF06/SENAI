@@ -1,0 +1,13 @@
+programa {
+  funcao inicio() {
+    inteiro num1, num2, num3, media
+      escreva("escreva os 3 numeros para saber a media deles \n")
+    leia(num1)
+    leia(num2)
+    leia(num3)
+    media = (num1 + num2 + num3) /3
+    escreva("a media dos 3 valores sao", media)
+
+
+  }
+}
