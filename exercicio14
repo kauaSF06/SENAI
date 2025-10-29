@@ -1,0 +1,15 @@
+programa {
+  funcao inicio() {
+    inteiro num1, invertido, resto
+    escreva("digite um numero")
+    leia(num1)
+
+    invertido = 0
+    enquanto(num>0){
+      resto = num1 %10
+      invertido = (invertido*10) + resto
+      num1 = num1/10
+      
+    }escreva("o numero invertido e: ", invertido, "\n")
+  }
+}
