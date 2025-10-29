@@ -1,0 +1,12 @@
+programa {
+  funcao inicio() {
+    inteiro num1, i
+    escreva("digite um numero inteiro")
+    leia(num1)
+    escreva("a tabuada de um numero e", num1, "\n")
+    para(i = 1; i<=10; i++)
+    {
+    escreva(num1, "X", i, "=", num1 * i, "\n")
+    }
+  }
+}
